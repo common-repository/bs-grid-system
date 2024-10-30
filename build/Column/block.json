@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "bs-grid/col",
+  "version": "1.0.0",
+  "title": "Column",
+  "category": "design",
+  "description": "A single column within a row block.",
+  "parent": [
+    "bs-grid/row"
+  ],
+  "attributes": {
+    "width": {
+      "type": "object",
+      "default": {
+        "default": "autoCol"
+      }
+    },
+    "offset": {
+      "type": "object"
+    },
+    "order": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "className": false
+  },
+  "textdomain": "bs-grid-system",
+  "editorScript": "file:./index.js"
+}

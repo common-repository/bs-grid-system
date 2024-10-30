@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "bs-grid/row",
+  "version": "1.0.0",
+  "title": "Row",
+  "category": "design",
+  "description": "Display content in multiple columns, with blocks added to each column.",
+  "keywords": [
+    "row",
+    "columns",
+    "layout",
+    "grid"
+  ],
+  "attributes": {
+    "rowCols": {
+      "type": "object"
+    },
+    "gutters": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "className": false
+  },
+  "textdomain": "bs-grid-system",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
